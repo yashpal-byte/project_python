@@ -1,3 +1,5 @@
+"""there are 2 types of conversion: implicit conversion and explicit conversion. implicit conversion is done automatically by python interpreter to avoid data loss.
+explicit type conversion also called typecasting which is forcefully done by the user"""
 #code to convert integer type to hexadecimal, octal, binary
 print("This program is to convert integer number to hexadecimal, octal, binary")
 print("sample deaf program") 
