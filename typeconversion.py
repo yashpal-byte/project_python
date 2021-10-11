@@ -12,3 +12,15 @@ print("--------------------------------------------------------")
 print("string formatting example")
 print(f"hexadecimal: {hexa}, octal: {octa}, binary: {binary}")
 
+#########################################
+int_input= int(input('Enter a integer value: '))
+hexad = hex(int_input)
+octat = oct(int_input)
+binary1 = bin(int_input)
+print(int_input, "this is hexadecimal: ",hexad, end=', ')
+print("this is octal: ",octat, end=' ')
+print("this is binary: ", binary1)
+print("--------------------------------------------------------")
+print("string formatting example")
+print(f"hexadecimal: {hexad}, octal: {octat}, binary: {binary1}")
+
